@@ -1,0 +1,12 @@
+[submodule "Code/Dependencies/ElegantRL"]
+	path = Code/Dependencies/ElegantRL
+	url = https://github.com/AI4Finance-Foundation/ElegantRL.git
+[submodule "Code/Dependencies/FinRL"]
+	path = Code/Dependencies/FinRL
+	url = https://github.com/AI4Finance-Foundation/FinRL.git
+[submodule "Code/Dependencies/FinRL-Meta"]
+	path = Code/Dependencies/FinRL-Meta
+	url = https://github.com/AI4Finance-Foundation/FinRL-Meta.git
+[submodule "Code/Dependencies/FinRL-Podracer"]
+	path = Code/Dependencies/FinRL-Podracer
+	url = https://github.com/AI4Finance-Foundation/FinRL_Podracer.git
