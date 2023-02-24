@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - build-essential deb package installed
 - cmake deb package installed
 - python3 deb package installed
+- python3-dev deb package installed
 - python3-pip deb package installed
 - python3-venv deb package installed
 - swig deb package installed
@@ -32,3 +33,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - pipx>=1.1.0,<2 pip package installed/upgraded
 - jupyterlab pipx package installed/upgraded
 - /root/.local/bin added to PATH
+- pandas pip package installed/upgraded
+- numpy pip package installed/upgraded
+- scipy pip package installed/upgraded
+- matplotlib pip package installed/upgraded
+- tensorflow pip package installed/upgraded
+- torch pip package installed/upgraded
+- gymnasium pip package installed/upgraded
+- pyfolio pip package installed/upgraded
+- stockstats pip package installed/upgraded
+- vectorbt pip package installed/upgraded
+- yfinance pip package installed/upgraded

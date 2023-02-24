@@ -14,6 +14,7 @@ RUN apt-get update && \
         build-essential \
         cmake \
         python3 \
+        python3-dev \
         python3-pip \
         python3-venv \
         swig && \
@@ -35,6 +36,17 @@ RUN python3 -m venv .venv && \
     pip  install --upgrade "coverage>=7.2.0,<8" && \
     pip  install --upgrade "wheel>=0.38.4" && \
     pip  install --upgrade "pipx>=1.1.0,<2" && \
-    pipx install "jupyterlab"
+    pipx install "jupyterlab" && \
+    pip  install --upgrade "pandas" && \
+    pip  install --upgrade "numpy" && \
+    pip  install --upgrade "scipy" && \
+    pip  install --upgrade "matplotlib" && \
+    pip  install --upgrade "tensorflow" && \
+    pip  install --upgrade "torch" && \
+    pip  install --upgrade "gymnasium" && \
+    pip  install --upgrade "pyfolio" && \
+    pip  install --upgrade "stockstats" && \
+    pip  install --upgrade "vectorbt" && \
+    pip  install --upgrade "yfinance"
 
 ENV PATH=/root/.local/bin${PATH:+:${PATH}}
