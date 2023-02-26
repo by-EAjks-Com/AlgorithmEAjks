@@ -13,7 +13,7 @@ docker run `
     --publish 8888:8888 `
     --volume "/Path/To/AlgorithmEAjks/Code:/src" `
     --workdir /build `
-    docker.io/eajkseajks/python-algorithmeajks:v1-ubuntu-22.04-latest
+    docker.io/eajkseajks/algorithmeajks:v1-ubuntu-22.04-latest
 ```
 
 ```powershell
