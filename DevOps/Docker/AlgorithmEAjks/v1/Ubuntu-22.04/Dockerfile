@@ -35,8 +35,8 @@ RUN python3 -m venv .venv && \
     pip  install --upgrade "setuptools>=67.4.0,<68" && \
     pip  install --upgrade "coverage>=7.2.0,<8" && \
     pip  install --upgrade "wheel>=0.38.4" && \
-    pip  install --upgrade "pipx>=1.1.0,<2" && \
-    pipx install "jupyterlab" && \
+    pip  install --upgrade "jupyterlab" && \
+    pip  install --upgrade "kaleido" && \
     pip  install --upgrade "pandas" && \
     pip  install --upgrade "numpy" && \
     pip  install --upgrade "scipy" && \
@@ -48,5 +48,3 @@ RUN python3 -m venv .venv && \
     pip  install --upgrade "stockstats" && \
     pip  install --upgrade "vectorbt" && \
     pip  install --upgrade "yfinance"
-
-ENV PATH=/root/.local/bin${PATH:+:${PATH}}

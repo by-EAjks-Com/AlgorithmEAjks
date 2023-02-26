@@ -30,9 +30,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - setuptools>=67.4.0,<68 pip package installed/upgraded
 - coverage>=7.2.0,<8 pip package installed/upgraded
 - wheel>=0.38.4 pip package installed/upgraded
-- pipx>=1.1.0,<2 pip package installed/upgraded
-- jupyterlab pipx package installed/upgraded
-- /root/.local/bin added to PATH
+- jupyterlab pip package installed/upgraded
+- kaleido pip package installed/upgraded
 - pandas pip package installed/upgraded
 - numpy pip package installed/upgraded
 - scipy pip package installed/upgraded
