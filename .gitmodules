@@ -10,3 +10,12 @@
 [submodule "Code/Dependencies/FinRL-Podracer"]
 	path = Code/Dependencies/FinRL-Podracer
 	url = https://github.com/AI4Finance-Foundation/FinRL_Podracer.git
+[submodule "Code/Dependencies/Marigold-Universal-Portfolios"]
+	path = Code/Dependencies/Marigold-Universal-Portfolios
+	url = https://github.com/Marigold/universal-portfolios.git
+[submodule "Code/Dependencies/Microsoft-QLib"]
+	path = Code/Dependencies/Microsoft-QLib
+	url = https://github.com/microsoft/qlib
+[submodule "Code/Dependencies/OLPS"]
+	path = Code/Dependencies/OLPS
+	url = https://github.com/OLPS/OLPS
