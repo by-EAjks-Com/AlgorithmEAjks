@@ -30,21 +30,21 @@ cd /build
 #### Develop & Test
 
 ```bash
-cd /src/Algorithms/AlgorithmEAjks
+cd /src/Packages/AlgorithmEAjks
 pip install --editable .
 pytest
 py3clean .
 ```
 
 ```bash
-cd /src/Algorithms/AlgorithmEAjks
+cd /src/Packages/AlgorithmEAjks
 tox
 ```
 
 #### Build & Install
 
 ```bash
-cd /src/Algorithms/AlgorithmEAjks
+cd /src/Packages/AlgorithmEAjks
 python -m build --sdist
 python -m build --wheel
 python -m build
